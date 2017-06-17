@@ -1,0 +1,7 @@
+<div class="carousel-inner" role="listbox">
+  {{yield
+    (hash
+      inner=(component "bs-carousel/inner" currentIndex=currentIndex)
+    )
+  }}
+</div>

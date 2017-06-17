@@ -30,6 +30,12 @@ const componentData = A([
     bsUrl: 'http://getbootstrap.com/components/#btn-groups'
   },
   {
+    id: 'carousel',
+    title: 'Carousel',
+    description: 'Carousel component with animated contextual slides',
+    bsUrl: 'http://getbootstrap.com/javascript/#carousel'
+  },
+  {
     id: 'collapse',
     title: 'Collapse',
     description: 'Easily hide and reveal additional content.',
