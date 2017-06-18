@@ -18,6 +18,28 @@ function useKeyboard(_this) {
 }
 
 /**
+ Bootstrap-style [carousel group](http://getbootstrap.com/javascript/#carousel),
+ with items.
+
+ ### Usage
+
+ Use as a block level component with any number of yielded [Components.CarouselItem](Components.CarouselItem.html)
+ components as children:
+
+ ```handlebars
+  {{#bs-carousel as |slider|}}
+      {{#slider.item}}
+        <img src="..." alt="...">
+      {{/slider.item}}
+      {{#slider.item}}
+        <img src="..." alt="...">
+      {{/slider.item}}
+      {{#slider.item}}
+        <img src="..." alt="...">
+      {{/slider.item}}
+  {{/bs-carousel}}
+ ```
+
  @class Carousel
  @namespace Components
  @extends Ember.Component

@@ -5,6 +5,10 @@ import layout from 'ember-bootstrap/templates/components/bs-carousel/item';
 const { computed } = Ember;
 
 /**
+ A slide item component for the carousel
+
+ See [Components.Carousel](Components.Carousel.html) for examples.
+
  @class CarouselItem
  @namespace Components
  @extends Ember.Component
