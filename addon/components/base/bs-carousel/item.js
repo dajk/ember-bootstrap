@@ -1,11 +1,11 @@
 import Ember from 'ember';
 import ComponentChild from 'ember-bootstrap/mixins/component-child';
-import layout from 'ember-bootstrap/templates/components/bs-carousel/inner';
+import layout from 'ember-bootstrap/templates/components/bs-carousel/item';
 
 const { computed } = Ember;
 
 /**
- @class CarouselInner
+ @class CarouselItem
  @namespace Components
  @extends Ember.Component
  @uses Mixins.ComponentChild
@@ -13,7 +13,6 @@ const { computed } = Ember;
  */
 export default Ember.Component.extend(ComponentChild, {
   layout,
-  classNames: ['item'],
   classNameBindings: ['active'],
 
   /**
